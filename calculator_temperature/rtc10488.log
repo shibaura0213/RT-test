@@ -1,0 +1,25 @@
+2024-11-28 08:22:11,834 file.manager INFO 2.0.0
+2024-11-28 08:22:11,834 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-11-28 08:22:11,834 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-11-28 08:22:11,834 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-11-28 08:22:11,834 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-11-28 08:22:11,834 file.manager INFO   All right reserved.
+2024-11-28 08:22:11,842 file.manager INFO Manager starting.
+2024-11-28 08:22:11,842 file.manager INFO Starting local logging.
+2024-11-28 08:22:11,850 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2024-11-28 08:22:15,957 file.ManagerServant INFO Master manager not found
+2024-11-28 08:22:15,957 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-11-28 08:22:15,957 file.manager INFO Component type conf file: calculator_temperature.conf loaded.
+2024-11-28 08:22:15,957 file.ec_base INFO setRate(1000000.000000) done
+2024-11-28 08:22:15,957 file.ec_base INFO setRate(1000.000000) done
+2024-11-28 08:22:15,957 file.rtobject INFO 1 execution context was created.
+2024-11-28 08:22:15,957 file.rtobject INFO Initial active configuration set is default.
+2024-11-28 08:22:30,100 file.ManagerServant INFO Master manager not found
+2024-11-28 08:22:40,180 file.ManagerServant INFO Master manager not found
+2024-11-28 08:22:50,269 file.ManagerServant INFO Master manager not found
+2024-11-28 08:23:00,376 file.ManagerServant INFO Master manager not found
+2024-11-28 08:23:10,377 file.ManagerServant INFO Master manager not found
+2024-11-28 08:23:20,380 file.ManagerServant INFO Master manager not found
+2024-11-28 08:23:30,390 file.ManagerServant INFO Master manager not found
+2024-11-28 08:23:40,433 file.ManagerServant INFO Master manager not found
+2024-11-28 08:23:50,450 file.ManagerServant INFO Master manager not found

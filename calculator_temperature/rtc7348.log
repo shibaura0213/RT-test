@@ -1,0 +1,16 @@
+2024-11-25 16:29:22,739 file.manager INFO 2.0.0
+2024-11-25 16:29:22,740 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-11-25 16:29:22,740 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-11-25 16:29:22,740 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-11-25 16:29:22,740 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-11-25 16:29:22,740 file.manager INFO   All right reserved.
+2024-11-25 16:29:22,740 file.manager INFO Manager starting.
+2024-11-25 16:29:22,740 file.manager INFO Starting local logging.
+2024-11-25 16:29:22,751 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2024-11-25 16:29:26,898 file.ManagerServant INFO Master manager not found
+2024-11-25 16:29:26,903 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-11-25 16:29:26,909 file.manager INFO Component type conf file: calculator_temperature.conf loaded.
+2024-11-25 16:29:26,911 file.ec_base INFO setRate(1000000.000000) done
+2024-11-25 16:29:26,911 file.ec_base INFO setRate(1000.000000) done
+2024-11-25 16:29:26,912 file.rtobject INFO 1 execution context was created.
+2024-11-25 16:29:26,915 file.rtobject INFO Initial active configuration set is default.

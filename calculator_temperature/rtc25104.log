@@ -1,0 +1,294 @@
+2024-11-28 16:28:08,451 file.manager INFO 2.0.0
+2024-11-28 16:28:08,451 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-11-28 16:28:08,451 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-11-28 16:28:08,451 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-11-28 16:28:08,451 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-11-28 16:28:08,451 file.manager INFO   All right reserved.
+2024-11-28 16:28:08,451 file.manager INFO Manager starting.
+2024-11-28 16:28:08,451 file.manager INFO Starting local logging.
+2024-11-28 16:28:08,458 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2024-11-28 16:28:12,551 file.ManagerServant INFO Master manager not found
+2024-11-28 16:28:12,552 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-11-28 16:28:12,564 file.manager INFO Component type conf file: calculator_temperature.conf loaded.
+2024-11-28 16:28:12,567 file.ec_base INFO setRate(1000000.000000) done
+2024-11-28 16:28:12,567 file.ec_base INFO setRate(1000.000000) done
+2024-11-28 16:28:12,567 file.rtobject INFO 1 execution context was created.
+2024-11-28 16:28:12,568 file.rtobject INFO Initial active configuration set is default.
+2024-11-28 16:28:26,682 file.ManagerServant INFO Master manager not found
+2024-11-28 16:28:36,799 file.ManagerServant INFO Master manager not found
+2024-11-28 16:28:46,779 file.ManagerServant INFO Master manager not found
+2024-11-28 16:28:56,943 file.ManagerServant INFO Master manager not found
+2024-11-28 16:29:06,915 file.ManagerServant INFO Master manager not found
+2024-11-28 16:29:16,938 file.ManagerServant INFO Master manager not found
+2024-11-28 16:29:27,024 file.ManagerServant INFO Master manager not found
+2024-11-28 16:29:37,091 file.ManagerServant INFO Master manager not found
+2024-11-28 16:29:47,057 file.ManagerServant INFO Master manager not found
+2024-11-28 16:29:57,151 file.ManagerServant INFO Master manager not found
+2024-11-28 16:30:07,185 file.ManagerServant INFO Master manager not found
+2024-11-28 16:30:17,234 file.ManagerServant INFO Master manager not found
+2024-11-28 16:30:27,290 file.ManagerServant INFO Master manager not found
+2024-11-28 16:30:37,272 file.ManagerServant INFO Master manager not found
+2024-11-28 16:30:47,272 file.ManagerServant INFO Master manager not found
+2024-11-28 16:30:57,353 file.ManagerServant INFO Master manager not found
+2024-11-28 16:31:07,393 file.ManagerServant INFO Master manager not found
+2024-11-28 16:31:17,449 file.ManagerServant INFO Master manager not found
+2024-11-28 16:31:27,491 file.ManagerServant INFO Master manager not found
+2024-11-28 16:31:37,538 file.ManagerServant INFO Master manager not found
+2024-11-28 16:31:47,539 file.ManagerServant INFO Master manager not found
+2024-11-28 16:31:57,560 file.ManagerServant INFO Master manager not found
+2024-11-28 16:32:07,594 file.ManagerServant INFO Master manager not found
+2024-11-28 16:32:17,619 file.ManagerServant INFO Master manager not found
+2024-11-28 16:32:27,658 file.ManagerServant INFO Master manager not found
+2024-11-28 16:32:37,768 file.ManagerServant INFO Master manager not found
+2024-11-28 16:32:47,831 file.ManagerServant INFO Master manager not found
+2024-11-28 16:32:55,364 file.result_t WARNING Traceback (most recent call last):
+  File "C:\Users\enshu\AppData\Local\Programs\Python\Python310\lib\site-packages\OpenRTM_aist\PortBase.py", line 2305, in checkPorts
+    if port._non_existent():
+  File "C:\Users\enshu\AppData\Local\Programs\Python\Python310\lib\site-packages\omniORB\CORBA.py", line 559, in _non_existent
+    return self._obj.nonExistent()
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2024-11-28 16:32:55,364 file.result_t WARNING Dead connection: 79b4ab44-ad5a-11ef-b8cf-f0f7b08dcc27
+2024-11-28 16:32:57,418 file.result_t WARNING Traceback (most recent call last):
+  File "C:\Users\enshu\AppData\Local\Programs\Python\Python310\lib\site-packages\OpenRTM_aist\PortBase.py", line 1664, in disconnectNext
+    return p.notify_disconnect(connector_profile.connector_id)
+  File "C:\Users\enshu\AppData\Local\Programs\Python\Python310\lib\site-packages\OpenRTM_aist\RTM_IDL\RTC_idl.py", line 1207, in notify_disconnect
+    return self._obj.invoke("notify_disconnect", _0_RTC.PortService._d_notify_disconnect, args)
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2024-11-28 16:32:57,905 file.ManagerServant INFO Master manager not found
+2024-11-28 16:33:08,039 file.ManagerServant INFO Master manager not found
+2024-11-28 16:33:18,096 file.ManagerServant INFO Master manager not found
+2024-11-28 16:33:28,178 file.ManagerServant INFO Master manager not found
+2024-11-28 16:33:38,181 file.ManagerServant INFO Master manager not found
+2024-11-28 16:33:48,289 file.ManagerServant INFO Master manager not found
+2024-11-28 16:33:58,321 file.ManagerServant INFO Master manager not found
+2024-11-28 16:34:08,383 file.ManagerServant INFO Master manager not found
+2024-11-28 16:34:08,620 file.ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2024-11-28 16:34:18,446 file.ManagerServant INFO Master manager not found
+2024-11-28 16:34:28,506 file.ManagerServant INFO Master manager not found
+2024-11-28 16:34:38,585 file.ManagerServant INFO Master manager not found
+2024-11-28 16:34:48,623 file.ManagerServant INFO Master manager not found
+2024-11-28 16:34:58,711 file.ManagerServant INFO Master manager not found
+2024-11-28 16:35:08,716 file.ManagerServant INFO Master manager not found
+2024-11-28 16:35:18,814 file.ManagerServant INFO Master manager not found
+2024-11-28 16:35:28,915 file.ManagerServant INFO Master manager not found
+2024-11-28 16:35:38,902 file.ManagerServant INFO Master manager not found
+2024-11-28 16:35:48,956 file.ManagerServant INFO Master manager not found
+2024-11-28 16:35:59,052 file.ManagerServant INFO Master manager not found
+2024-11-28 16:36:09,043 file.ManagerServant INFO Master manager not found
+2024-11-28 16:36:19,147 file.ManagerServant INFO Master manager not found
+2024-11-28 16:36:29,174 file.ManagerServant INFO Master manager not found
+2024-11-28 16:36:32,270 file.ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2024-11-28 16:36:39,243 file.ManagerServant INFO Master manager not found
+2024-11-28 16:36:49,334 file.ManagerServant INFO Master manager not found
+2024-11-28 16:36:59,402 file.ManagerServant INFO Master manager not found
+2024-11-28 16:37:09,454 file.ManagerServant INFO Master manager not found
+2024-11-28 16:37:19,463 file.ManagerServant INFO Master manager not found
+2024-11-28 16:37:29,471 file.ManagerServant INFO Master manager not found
+2024-11-28 16:37:39,541 file.ManagerServant INFO Master manager not found
+2024-11-28 16:37:49,614 file.ManagerServant INFO Master manager not found
+2024-11-28 16:37:59,679 file.ManagerServant INFO Master manager not found
+2024-11-28 16:38:09,749 file.ManagerServant INFO Master manager not found
+2024-11-28 16:38:19,747 file.ManagerServant INFO Master manager not found
+2024-11-28 16:38:29,867 file.ManagerServant INFO Master manager not found
+2024-11-28 16:38:33,272 file.ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2024-11-28 16:38:39,927 file.ManagerServant INFO Master manager not found
+2024-11-28 16:38:50,015 file.ManagerServant INFO Master manager not found
+2024-11-28 16:39:00,079 file.ManagerServant INFO Master manager not found
+2024-11-28 16:39:10,083 file.ManagerServant INFO Master manager not found
+2024-11-28 16:39:20,170 file.ManagerServant INFO Master manager not found
+2024-11-28 16:39:30,199 file.ManagerServant INFO Master manager not found
+2024-11-28 16:39:40,151 file.ManagerServant INFO Master manager not found
+2024-11-28 16:39:50,199 file.ManagerServant INFO Master manager not found
+2024-11-28 16:40:00,302 file.ManagerServant INFO Master manager not found
+2024-11-28 16:40:10,272 file.ManagerServant INFO Master manager not found
+2024-11-28 16:40:20,336 file.ManagerServant INFO Master manager not found
+2024-11-28 16:40:30,407 file.ManagerServant INFO Master manager not found
+2024-11-28 16:40:40,449 file.ManagerServant INFO Master manager not found
+2024-11-28 16:40:50,514 file.ManagerServant INFO Master manager not found
+2024-11-28 16:41:00,584 file.ManagerServant INFO Master manager not found
+2024-11-28 16:41:10,641 file.ManagerServant INFO Master manager not found
+2024-11-28 16:41:20,689 file.ManagerServant INFO Master manager not found
+2024-11-28 16:41:30,763 file.ManagerServant INFO Master manager not found
+2024-11-28 16:41:40,771 file.ManagerServant INFO Master manager not found
+2024-11-28 16:41:50,823 file.ManagerServant INFO Master manager not found
+2024-11-28 16:42:00,940 file.ManagerServant INFO Master manager not found
+2024-11-28 16:42:10,963 file.ManagerServant INFO Master manager not found
+2024-11-28 16:42:21,010 file.ManagerServant INFO Master manager not found
+2024-11-28 16:42:31,115 file.ManagerServant INFO Master manager not found
+2024-11-28 16:42:41,086 file.ManagerServant INFO Master manager not found
+2024-11-28 16:42:51,131 file.ManagerServant INFO Master manager not found
+2024-11-28 16:43:01,221 file.ManagerServant INFO Master manager not found
+2024-11-28 16:43:11,296 file.ManagerServant INFO Master manager not found
+2024-11-28 16:43:21,429 file.ManagerServant INFO Master manager not found
+2024-11-28 16:43:31,384 file.ManagerServant INFO Master manager not found
+2024-11-28 16:43:41,500 file.ManagerServant INFO Master manager not found
+2024-11-28 16:43:51,462 file.ManagerServant INFO Master manager not found
+2024-11-28 16:44:01,596 file.ManagerServant INFO Master manager not found
+2024-11-28 16:44:11,626 file.ManagerServant INFO Master manager not found
+2024-11-28 16:44:21,606 file.ManagerServant INFO Master manager not found
+2024-11-28 16:44:31,675 file.ManagerServant INFO Master manager not found
+2024-11-28 16:44:41,690 file.ManagerServant INFO Master manager not found
+2024-11-28 16:44:51,771 file.ManagerServant INFO Master manager not found
+2024-11-28 16:44:54,389 file.ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2024-11-28 16:45:01,862 file.ManagerServant INFO Master manager not found
+2024-11-28 16:45:11,977 file.ManagerServant INFO Master manager not found
+2024-11-28 16:45:21,960 file.ManagerServant INFO Master manager not found
+2024-11-28 16:45:31,952 file.ManagerServant INFO Master manager not found
+2024-11-28 16:45:41,989 file.ManagerServant INFO Master manager not found
+2024-11-28 16:45:52,006 file.ManagerServant INFO Master manager not found
+2024-11-28 16:46:02,074 file.ManagerServant INFO Master manager not found
+2024-11-28 16:46:12,124 file.ManagerServant INFO Master manager not found
+2024-11-28 16:46:22,150 file.ManagerServant INFO Master manager not found
+2024-11-28 16:46:32,230 file.ManagerServant INFO Master manager not found
+2024-11-28 16:46:42,254 file.ManagerServant INFO Master manager not found
+2024-11-28 16:46:52,381 file.ManagerServant INFO Master manager not found
+2024-11-28 16:47:02,437 file.ManagerServant INFO Master manager not found
+2024-11-28 16:47:12,555 file.ManagerServant INFO Master manager not found
+2024-11-28 16:47:22,649 file.ManagerServant INFO Master manager not found
+2024-11-28 16:47:32,743 file.ManagerServant INFO Master manager not found
+2024-11-28 16:47:42,803 file.ManagerServant INFO Master manager not found
+2024-11-28 16:47:52,870 file.ManagerServant INFO Master manager not found
+2024-11-28 16:48:02,951 file.ManagerServant INFO Master manager not found
+2024-11-28 16:48:12,982 file.ManagerServant INFO Master manager not found
+2024-11-28 16:48:23,060 file.ManagerServant INFO Master manager not found
+2024-11-28 16:48:33,140 file.ManagerServant INFO Master manager not found
+2024-11-28 16:48:43,218 file.ManagerServant INFO Master manager not found
+2024-11-28 16:48:53,265 file.ManagerServant INFO Master manager not found
+2024-11-28 16:49:02,261 file.ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2024-11-28 16:49:03,381 file.ManagerServant INFO Master manager not found
+2024-11-28 16:49:13,383 file.ManagerServant INFO Master manager not found
+2024-11-28 16:49:23,453 file.ManagerServant INFO Master manager not found
+2024-11-28 16:49:33,551 file.ManagerServant INFO Master manager not found
+2024-11-28 16:49:43,625 file.ManagerServant INFO Master manager not found
+2024-11-28 16:49:53,650 file.ManagerServant INFO Master manager not found
+2024-11-28 16:50:03,590 file.ManagerServant INFO Master manager not found
+2024-11-28 16:50:13,721 file.ManagerServant INFO Master manager not found
+2024-11-28 16:50:23,792 file.ManagerServant INFO Master manager not found
+2024-11-28 16:50:33,867 file.ManagerServant INFO Master manager not found
+2024-11-28 16:50:43,936 file.ManagerServant INFO Master manager not found
+2024-11-28 16:50:54,033 file.ManagerServant INFO Master manager not found
+2024-11-28 16:50:58,637 file.ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2024-11-28 16:51:04,085 file.ManagerServant INFO Master manager not found
+2024-11-28 16:51:14,155 file.ManagerServant INFO Master manager not found
+2024-11-28 16:51:24,245 file.ManagerServant INFO Master manager not found
+2024-11-28 16:51:34,324 file.ManagerServant INFO Master manager not found
+2024-11-28 16:51:44,293 file.ManagerServant INFO Master manager not found
+2024-11-28 16:51:54,321 file.ManagerServant INFO Master manager not found
+2024-11-28 16:52:04,359 file.ManagerServant INFO Master manager not found
+2024-11-28 16:52:14,433 file.ManagerServant INFO Master manager not found
+2024-11-28 16:52:24,510 file.ManagerServant INFO Master manager not found
+2024-11-28 16:52:34,614 file.ManagerServant INFO Master manager not found
+2024-11-28 16:52:44,598 file.ManagerServant INFO Master manager not found
+2024-11-28 16:52:54,712 file.ManagerServant INFO Master manager not found
+2024-11-28 16:53:04,820 file.ManagerServant INFO Master manager not found
+2024-11-28 16:53:14,914 file.ManagerServant INFO Master manager not found
+2024-11-28 16:53:24,946 file.ManagerServant INFO Master manager not found
+2024-11-28 16:53:34,996 file.ManagerServant INFO Master manager not found
+2024-11-28 16:53:45,024 file.ManagerServant INFO Master manager not found
+2024-11-28 16:53:55,138 file.ManagerServant INFO Master manager not found
+2024-11-28 16:54:05,186 file.ManagerServant INFO Master manager not found
+2024-11-28 16:54:15,301 file.ManagerServant INFO Master manager not found
+2024-11-28 16:54:25,251 file.ManagerServant INFO Master manager not found
+2024-11-28 16:54:35,325 file.ManagerServant INFO Master manager not found
+2024-11-28 16:54:45,336 file.ManagerServant INFO Master manager not found
+2024-11-28 16:54:55,429 file.ManagerServant INFO Master manager not found
+2024-11-28 16:55:05,414 file.ManagerServant INFO Master manager not found
+2024-11-28 16:55:15,438 file.ManagerServant INFO Master manager not found
+2024-11-28 16:55:25,421 file.ManagerServant INFO Master manager not found
+2024-11-28 16:55:32,434 file.ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2024-11-28 16:55:35,523 file.ManagerServant INFO Master manager not found
+2024-11-28 16:55:45,613 file.ManagerServant INFO Master manager not found
+2024-11-28 16:55:55,577 file.ManagerServant INFO Master manager not found
+2024-11-28 16:56:05,669 file.ManagerServant INFO Master manager not found
+2024-11-28 16:56:15,729 file.ManagerServant INFO Master manager not found
+2024-11-28 16:56:23,932 file.ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2024-11-28 16:56:25,835 file.ManagerServant INFO Master manager not found
+2024-11-28 16:56:35,947 file.ManagerServant INFO Master manager not found
+2024-11-28 16:56:45,911 file.ManagerServant INFO Master manager not found
+2024-11-28 16:56:56,016 file.ManagerServant INFO Master manager not found
+2024-11-28 16:57:06,121 file.ManagerServant INFO Master manager not found
+2024-11-28 16:57:16,190 file.ManagerServant INFO Master manager not found
+2024-11-28 16:57:26,209 file.ManagerServant INFO Master manager not found
+2024-11-28 16:57:36,315 file.ManagerServant INFO Master manager not found
+2024-11-28 16:57:46,334 file.ManagerServant INFO Master manager not found
+2024-11-28 16:57:56,435 file.ManagerServant INFO Master manager not found
+2024-11-28 16:58:06,445 file.ManagerServant INFO Master manager not found
+2024-11-28 16:58:16,465 file.ManagerServant INFO Master manager not found
+2024-11-28 16:58:26,476 file.ManagerServant INFO Master manager not found
+2024-11-28 16:58:36,508 file.ManagerServant INFO Master manager not found
+2024-11-28 16:58:46,582 file.ManagerServant INFO Master manager not found
+2024-11-28 16:58:56,636 file.ManagerServant INFO Master manager not found
+2024-11-28 16:59:06,703 file.ManagerServant INFO Master manager not found
+2024-11-28 16:59:16,746 file.ManagerServant INFO Master manager not found
+2024-11-28 16:59:26,790 file.ManagerServant INFO Master manager not found
+2024-11-28 16:59:36,862 file.ManagerServant INFO Master manager not found
+2024-11-28 16:59:46,932 file.ManagerServant INFO Master manager not found
+2024-11-28 16:59:57,007 file.ManagerServant INFO Master manager not found
+2024-11-28 17:00:07,104 file.ManagerServant INFO Master manager not found
+2024-11-28 17:00:17,162 file.ManagerServant INFO Master manager not found
+2024-11-28 17:00:27,229 file.ManagerServant INFO Master manager not found
+2024-11-28 17:00:37,279 file.ManagerServant INFO Master manager not found
+2024-11-28 17:00:47,336 file.ManagerServant INFO Master manager not found
+2024-11-28 17:00:57,388 file.ManagerServant INFO Master manager not found
+2024-11-28 17:01:07,404 file.ManagerServant INFO Master manager not found
+2024-11-28 17:01:08,003 file.ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2024-11-28 17:01:17,455 file.ManagerServant INFO Master manager not found
+2024-11-28 17:01:27,516 file.ManagerServant INFO Master manager not found
+2024-11-28 17:01:37,651 file.ManagerServant INFO Master manager not found
+2024-11-28 17:01:47,671 file.ManagerServant INFO Master manager not found
+2024-11-28 17:01:57,735 file.ManagerServant INFO Master manager not found
+2024-11-28 17:02:07,838 file.ManagerServant INFO Master manager not found
+2024-11-28 17:02:15,033 file.ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2024-11-28 17:02:17,842 file.ManagerServant INFO Master manager not found
+2024-11-28 17:02:27,908 file.ManagerServant INFO Master manager not found
+2024-11-28 17:02:38,011 file.ManagerServant INFO Master manager not found
+2024-11-28 17:02:48,105 file.ManagerServant INFO Master manager not found
+2024-11-28 17:02:58,163 file.ManagerServant INFO Master manager not found
+2024-11-28 17:03:08,214 file.ManagerServant INFO Master manager not found
+2024-11-28 17:03:18,304 file.ManagerServant INFO Master manager not found
+2024-11-28 17:03:28,380 file.ManagerServant INFO Master manager not found
+2024-11-28 17:03:38,449 file.ManagerServant INFO Master manager not found
+2024-11-28 17:03:48,507 file.ManagerServant INFO Master manager not found
+2024-11-28 17:03:58,640 file.ManagerServant INFO Master manager not found
+2024-11-28 17:04:04,658 file.ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2024-11-28 17:04:08,715 file.ManagerServant INFO Master manager not found
+2024-11-28 17:04:18,846 file.ManagerServant INFO Master manager not found
+2024-11-28 17:04:28,795 file.ManagerServant INFO Master manager not found
+2024-11-28 17:04:38,852 file.ManagerServant INFO Master manager not found
+2024-11-28 17:04:48,954 file.ManagerServant INFO Master manager not found
+2024-11-28 17:04:59,055 file.ManagerServant INFO Master manager not found
+2024-11-28 17:05:09,082 file.ManagerServant INFO Master manager not found
+2024-11-28 17:05:19,112 file.ManagerServant INFO Master manager not found
+2024-11-28 17:05:29,127 file.ManagerServant INFO Master manager not found
+2024-11-28 17:05:39,117 file.ManagerServant INFO Master manager not found
+2024-11-28 17:05:49,132 file.ManagerServant INFO Master manager not found
+2024-11-28 17:05:59,133 file.ManagerServant INFO Master manager not found
+2024-11-28 17:06:09,245 file.ManagerServant INFO Master manager not found
+2024-11-28 17:06:19,244 file.ManagerServant INFO Master manager not found
+2024-11-28 17:06:29,344 file.ManagerServant INFO Master manager not found
+2024-11-28 17:06:39,422 file.ManagerServant INFO Master manager not found
+2024-11-28 17:06:49,453 file.ManagerServant INFO Master manager not found
+2024-11-28 17:06:59,534 file.ManagerServant INFO Master manager not found
+2024-11-28 17:07:09,566 file.ManagerServant INFO Master manager not found
+2024-11-28 17:07:19,569 file.ManagerServant INFO Master manager not found
+2024-11-28 17:07:29,642 file.ManagerServant INFO Master manager not found
+2024-11-28 17:07:33,411 file.ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2024-11-28 17:07:39,701 file.ManagerServant INFO Master manager not found
+2024-11-28 17:07:49,709 file.ManagerServant INFO Master manager not found
+2024-11-28 17:07:59,778 file.ManagerServant INFO Master manager not found
+2024-11-28 17:08:09,881 file.ManagerServant INFO Master manager not found
+2024-11-28 17:08:19,942 file.ManagerServant INFO Master manager not found
+2024-11-28 17:08:29,994 file.ManagerServant INFO Master manager not found
+2024-11-28 17:08:40,071 file.ManagerServant INFO Master manager not found
+2024-11-28 17:08:50,082 file.ManagerServant INFO Master manager not found
+2024-11-28 17:09:00,069 file.ManagerServant INFO Master manager not found
+2024-11-28 17:09:10,192 file.ManagerServant INFO Master manager not found
+2024-11-28 17:09:20,290 file.ManagerServant INFO Master manager not found
+2024-11-28 17:09:27,673 file.ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2024-11-28 17:09:30,410 file.ManagerServant INFO Master manager not found
+2024-11-28 17:09:40,414 file.ManagerServant INFO Master manager not found
+2024-11-28 17:09:50,415 file.ManagerServant INFO Master manager not found
+2024-11-28 17:10:00,497 file.ManagerServant INFO Master manager not found
+2024-11-28 17:10:10,591 file.ManagerServant INFO Master manager not found
