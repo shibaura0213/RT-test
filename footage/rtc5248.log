@@ -1,0 +1,35 @@
+2024-11-28 17:03:41,727 file.manager INFO 2.0.0
+2024-11-28 17:03:41,727 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-11-28 17:03:41,727 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-11-28 17:03:41,727 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-11-28 17:03:41,727 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-11-28 17:03:41,727 file.manager INFO   All right reserved.
+2024-11-28 17:03:41,727 file.manager INFO Manager starting.
+2024-11-28 17:03:41,727 file.manager INFO Starting local logging.
+2024-11-28 17:03:41,750 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2024-11-28 17:03:45,846 file.ManagerServant INFO Master manager not found
+2024-11-28 17:03:45,846 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-11-28 17:03:45,846 file.manager INFO Component type conf file: footage.conf loaded.
+2024-11-28 17:03:45,846 file.ec_base INFO setRate(1000000.000000) done
+2024-11-28 17:03:45,846 file.ec_base INFO setRate(1000.000000) done
+2024-11-28 17:03:45,846 file.rtobject INFO 1 execution context was created.
+2024-11-28 17:03:45,846 file.rtobject INFO Initial active configuration set is default.
+2024-11-28 17:04:00,009 file.ManagerServant INFO Master manager not found
+2024-11-28 17:04:10,092 file.ManagerServant INFO Master manager not found
+2024-11-28 17:04:20,196 file.ManagerServant INFO Master manager not found
+2024-11-28 17:04:30,270 file.ManagerServant INFO Master manager not found
+2024-11-28 17:04:40,245 file.ManagerServant INFO Master manager not found
+2024-11-28 17:04:50,352 file.ManagerServant INFO Master manager not found
+2024-11-28 17:05:00,432 file.ManagerServant INFO Master manager not found
+2024-11-28 17:05:10,494 file.ManagerServant INFO Master manager not found
+2024-11-28 17:05:20,521 file.ManagerServant INFO Master manager not found
+2024-11-28 17:05:30,543 file.ManagerServant INFO Master manager not found
+2024-11-28 17:05:40,657 file.ManagerServant INFO Master manager not found
+2024-11-28 17:05:50,666 file.ManagerServant INFO Master manager not found
+2024-11-28 17:06:00,669 file.ManagerServant INFO Master manager not found
+2024-11-28 17:06:10,796 file.ManagerServant INFO Master manager not found
+2024-11-28 17:06:20,804 file.ManagerServant INFO Master manager not found
+2024-11-28 17:06:30,873 file.ManagerServant INFO Master manager not found
+2024-11-28 17:06:40,941 file.ManagerServant INFO Master manager not found
+2024-11-28 17:06:50,992 file.ManagerServant INFO Master manager not found
+2024-11-28 17:07:01,038 file.ManagerServant INFO Master manager not found
