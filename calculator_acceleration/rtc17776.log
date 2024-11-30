@@ -1,0 +1,26 @@
+2024-11-29 17:09:20,765 file.manager INFO 2.0.0
+2024-11-29 17:09:20,765 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-11-29 17:09:20,766 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-11-29 17:09:20,766 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-11-29 17:09:20,766 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-11-29 17:09:20,766 file.manager INFO   All right reserved.
+2024-11-29 17:09:20,766 file.manager INFO Manager starting.
+2024-11-29 17:09:20,766 file.manager INFO Starting local logging.
+2024-11-29 17:09:20,774 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2024-11-29 17:09:24,815 file.ManagerServant INFO Master manager not found
+2024-11-29 17:09:24,815 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-11-29 17:09:24,815 file.manager INFO Component type conf file: calculator_acceleration.conf loaded.
+2024-11-29 17:09:24,815 file.ec_base INFO setRate(1000000.000000) done
+2024-11-29 17:09:24,815 file.ec_base INFO setRate(1000.000000) done
+2024-11-29 17:09:24,815 file.rtobject INFO 1 execution context was created.
+2024-11-29 17:09:24,815 file.rtobject INFO Initial active configuration set is default.
+2024-11-29 17:09:38,973 file.ManagerServant INFO Master manager not found
+2024-11-29 17:09:45,320 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2024-11-29 17:09:45,320 file.SdoServiceAdmin ERROR type  not exists.
+2024-11-29 17:09:49,116 file.ManagerServant INFO Master manager not found
+2024-11-29 17:09:59,060 file.ManagerServant INFO Master manager not found
+2024-11-29 17:10:09,140 file.ManagerServant INFO Master manager not found
+2024-11-29 17:10:19,215 file.ManagerServant INFO Master manager not found
+2024-11-29 17:10:29,303 file.ManagerServant INFO Master manager not found
+2024-11-29 17:10:39,361 file.ManagerServant INFO Master manager not found
+2024-11-29 17:10:49,469 file.ManagerServant INFO Master manager not found
