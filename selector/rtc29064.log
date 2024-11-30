@@ -1,0 +1,179 @@
+2024-11-30 08:13:59,231 file.manager INFO 2.0.0
+2024-11-30 08:13:59,231 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-11-30 08:13:59,231 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-11-30 08:13:59,231 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-11-30 08:13:59,231 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-11-30 08:13:59,231 file.manager INFO   All right reserved.
+2024-11-30 08:13:59,232 file.manager INFO Manager starting.
+2024-11-30 08:13:59,232 file.manager INFO Starting local logging.
+2024-11-30 08:13:59,253 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2024-11-30 08:14:03,343 file.ManagerServant INFO Master manager not found
+2024-11-30 08:14:03,343 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-11-30 08:14:03,358 file.manager INFO Component type conf file: selector.conf loaded.
+2024-11-30 08:14:03,360 file.ec_base INFO setRate(1000000.000000) done
+2024-11-30 08:14:03,360 file.ec_base INFO setRate(1000.000000) done
+2024-11-30 08:14:03,361 file.rtobject INFO 1 execution context was created.
+2024-11-30 08:14:03,365 file.rtobject INFO Initial active configuration set is default.
+2024-11-30 08:14:13,062 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2024-11-30 08:14:13,062 file.SdoServiceAdmin ERROR type  not exists.
+2024-11-30 08:14:17,543 file.ManagerServant INFO Master manager not found
+2024-11-30 08:14:27,643 file.ManagerServant INFO Master manager not found
+2024-11-30 08:14:34,932 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:35,150 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:35,351 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:35,552 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:35,753 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:35,971 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:36,186 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:36,403 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:36,619 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:36,836 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:37,052 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:37,268 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:37,468 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:37,672 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:37,735 file.ManagerServant INFO Master manager not found
+2024-11-30 08:14:37,891 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:38,094 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:38,295 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:38,511 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:38,731 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:38,932 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:39,134 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:39,349 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:39,551 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:39,756 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:39,958 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:40,173 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:40,386 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:40,593 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:40,797 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:40,999 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:41,202 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:41,404 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:41,606 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:41,815 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:42,020 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:42,236 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:42,452 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:42,653 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:42,854 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:43,071 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:43,276 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:43,477 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:43,693 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:43,896 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:44,112 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:44,315 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:44,518 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:44,720 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:44,923 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:45,124 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:45,340 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:45,543 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:45,759 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:45,960 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:46,175 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:46,393 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:46,594 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:46,805 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:47,023 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:47,238 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:47,442 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:47,646 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:47,805 file.ManagerServant INFO Master manager not found
+2024-11-30 08:14:47,852 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:48,069 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:48,284 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:48,499 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:48,701 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:48,903 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:49,108 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:49,324 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:49,527 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:49,729 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:49,945 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:50,161 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:50,364 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:50,565 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:50,768 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:50,970 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:51,188 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:51,391 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:51,607 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:51,809 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:52,011 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:52,228 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:52,432 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:52,634 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:52,840 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:53,043 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:53,257 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:53,475 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:53,687 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:53,905 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:54,120 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:54,321 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:54,525 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:54,726 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:54,945 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:55,148 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:55,351 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:55,552 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:55,771 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:55,974 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:56,179 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:56,382 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:56,584 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:56,801 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:57,004 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:57,208 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:57,413 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:57,617 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:57,820 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:57,851 file.ManagerServant INFO Master manager not found
+2024-11-30 08:14:58,023 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:58,240 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:58,457 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:58,660 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:58,866 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:59,070 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:59,273 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:59,491 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:59,699 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:14:59,903 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:00,107 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:00,310 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:00,511 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:00,714 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:00,918 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:01,119 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:01,323 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:01,526 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:01,730 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:01,934 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:02,137 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:02,339 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:02,541 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:02,758 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:02,974 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:03,176 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:03,379 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:03,582 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:03,784 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:03,988 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:04,191 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:04,392 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:04,596 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:04,812 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:05,016 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:05,217 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:05,421 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:05,624 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:05,830 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:06,033 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:06,233 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:06,450 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:06,651 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:06,853 file.OutPortConnector ERROR unkown error.
+2024-11-30 08:15:07,057 file.OutPortConnector ERROR unkown error.

@@ -1,0 +1,7 @@
+add_test(NAME ${PROJECT_NAME}_test COMMAND ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/${PROJECT_NAME}Test.py -o "manager.components.precreate:${PROJECT_NAME}" -o "manager.components.preconnect:${PROJECT_NAME}0.result_a?port=${PROJECT_NAME}Test0.result_a,${PROJECT_NAME}0.result_m?port=${PROJECT_NAME}Test0.result_m,${PROJECT_NAME}0.result_t?port=${PROJECT_NAME}Test0.result_t,${PROJECT_NAME}0.footage_drink_type?port=${PROJECT_NAME}Test0.footage_drink_type,${PROJECT_NAME}0.footage_drink_weight?port=${PROJECT_NAME}Test0.footage_drink_weight,${PROJECT_NAME}0.sound?port=${PROJECT_NAME}Test0.sound" -o "manager.components.preactivation:${PROJECT_NAME}0,${PROJECT_NAME}Test0" WORKING_DIRECTORY ${CMAKE_BINARY_DIR})
+string(REPLACE ";" "\\;" PYTHONPATH "$ENV{PYTHONPATH}")
+if(UNIX)
+  set_tests_properties(${PROJECT_NAME}_test PROPERTIES ENVIRONMENT "PYTHONPATH=${CMAKE_SOURCE_DIR}:${PYTHONPATH}")
+else()
+  set_tests_properties(${PROJECT_NAME}_test PROPERTIES ENVIRONMENT "PYTHONPATH=${CMAKE_SOURCE_DIR}\;${PYTHONPATH}")
+endif()

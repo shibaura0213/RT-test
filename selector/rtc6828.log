@@ -1,0 +1,41 @@
+2024-11-28 15:34:28,883 file.manager INFO 2.0.0
+2024-11-28 15:34:28,884 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-11-28 15:34:28,884 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-11-28 15:34:28,884 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-11-28 15:34:28,884 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-11-28 15:34:28,884 file.manager INFO   All right reserved.
+2024-11-28 15:34:28,884 file.manager INFO Manager starting.
+2024-11-28 15:34:28,884 file.manager INFO Starting local logging.
+2024-11-28 15:34:28,891 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2024-11-28 15:34:32,967 file.ManagerServant INFO Master manager not found
+2024-11-28 15:34:32,967 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-11-28 15:34:32,971 file.manager INFO Component type conf file: selector.conf loaded.
+2024-11-28 15:34:32,972 file.ec_base INFO setRate(1000000.000000) done
+2024-11-28 15:34:32,972 file.ec_base INFO setRate(1000.000000) done
+2024-11-28 15:34:32,972 file.rtobject INFO 1 execution context was created.
+2024-11-28 15:34:32,975 file.rtobject INFO Initial active configuration set is default.
+2024-11-28 15:34:47,109 file.ManagerServant INFO Master manager not found
+2024-11-28 15:34:49,895 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2024-11-28 15:34:49,895 file.SdoServiceAdmin ERROR type  not exists.
+2024-11-28 15:34:57,204 file.ManagerServant INFO Master manager not found
+2024-11-28 15:35:07,275 file.ManagerServant INFO Master manager not found
+2024-11-28 15:35:17,360 file.ManagerServant INFO Master manager not found
+2024-11-28 15:35:27,422 file.ManagerServant INFO Master manager not found
+2024-11-28 15:35:37,530 file.ManagerServant INFO Master manager not found
+2024-11-28 15:35:47,612 file.ManagerServant INFO Master manager not found
+2024-11-28 15:35:57,648 file.ManagerServant INFO Master manager not found
+2024-11-28 15:35:58,753 file.footage WARNING Traceback (most recent call last):
+  File "C:\Users\enshu\AppData\Local\Programs\Python\Python310\lib\site-packages\OpenRTM_aist\PortBase.py", line 2305, in checkPorts
+    if port._non_existent():
+  File "C:\Users\enshu\AppData\Local\Programs\Python\Python310\lib\site-packages\omniORB\CORBA.py", line 559, in _non_existent
+    return self._obj.nonExistent()
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2024-11-28 15:35:58,753 file.footage WARNING Dead connection: e4dcc923-ad52-11ef-86e3-f0f7b08dcc27
+2024-11-28 15:36:00,814 file.footage WARNING Traceback (most recent call last):
+  File "C:\Users\enshu\AppData\Local\Programs\Python\Python310\lib\site-packages\OpenRTM_aist\PortBase.py", line 1664, in disconnectNext
+    return p.notify_disconnect(connector_profile.connector_id)
+  File "C:\Users\enshu\AppData\Local\Programs\Python\Python310\lib\site-packages\OpenRTM_aist\RTM_IDL\RTC_idl.py", line 1207, in notify_disconnect
+    return self._obj.invoke("notify_disconnect", _0_RTC.PortService._d_notify_disconnect, args)
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+

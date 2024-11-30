@@ -1,0 +1,28 @@
+2024-11-28 15:49:38,680 file.manager INFO 2.0.0
+2024-11-28 15:49:38,681 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-11-28 15:49:38,681 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-11-28 15:49:38,681 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-11-28 15:49:38,681 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-11-28 15:49:38,681 file.manager INFO   All right reserved.
+2024-11-28 15:49:38,681 file.manager INFO Manager starting.
+2024-11-28 15:49:38,681 file.manager INFO Starting local logging.
+2024-11-28 15:49:38,687 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2024-11-28 15:49:42,754 file.ManagerServant INFO Master manager not found
+2024-11-28 15:49:42,754 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-11-28 15:49:42,760 file.manager INFO Component type conf file: selector.conf loaded.
+2024-11-28 15:49:42,760 file.ec_base INFO setRate(1000000.000000) done
+2024-11-28 15:49:42,760 file.ec_base INFO setRate(1000.000000) done
+2024-11-28 15:49:42,760 file.rtobject INFO 1 execution context was created.
+2024-11-28 15:49:42,760 file.rtobject INFO Initial active configuration set is default.
+2024-11-28 15:49:56,930 file.ManagerServant INFO Master manager not found
+2024-11-28 15:49:59,544 file.InPortConnector ERROR unknown error
+2024-11-28 15:49:59,545 file.result_t ERROR unknown retern value from buffer.read()
+2024-11-28 15:49:59,547 file.rtobject ERROR Traceback (most recent call last):
+  File "C:\Users\enshu\AppData\Local\Programs\Python\Python310\lib\site-packages\OpenRTM_aist\DataFlowComponentBase.py", line 123, in on_execute
+    ret = self.onExecute(ec_id)
+  File "C:\Users\enshu\workspace\selector\selector.py", line 235, in onExecute
+    footage = self._t_list[-1].data
+AttributeError: 'str' object has no attribute 'data'
+
+2024-11-28 15:50:06,991 file.ManagerServant INFO Master manager not found
+2024-11-28 15:50:17,109 file.ManagerServant INFO Master manager not found

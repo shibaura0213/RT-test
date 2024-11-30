@@ -1,0 +1,83 @@
+2024-11-28 15:47:22,106 file.manager INFO 2.0.0
+2024-11-28 15:47:22,106 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-11-28 15:47:22,107 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-11-28 15:47:22,107 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-11-28 15:47:22,107 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-11-28 15:47:22,107 file.manager INFO   All right reserved.
+2024-11-28 15:47:22,107 file.manager INFO Manager starting.
+2024-11-28 15:47:22,107 file.manager INFO Starting local logging.
+2024-11-28 15:47:22,115 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2024-11-28 15:47:26,200 file.ManagerServant INFO Master manager not found
+2024-11-28 15:47:26,201 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-11-28 15:47:26,204 file.manager INFO Component type conf file: selector.conf loaded.
+2024-11-28 15:47:26,206 file.ec_base INFO setRate(1000000.000000) done
+2024-11-28 15:47:26,206 file.ec_base INFO setRate(1000.000000) done
+2024-11-28 15:47:26,206 file.rtobject INFO 1 execution context was created.
+2024-11-28 15:47:26,209 file.rtobject INFO Initial active configuration set is default.
+2024-11-28 15:47:40,365 file.ManagerServant INFO Master manager not found
+2024-11-28 15:47:44,431 file.InPortConnector ERROR unknown error
+2024-11-28 15:47:44,431 file.result_t ERROR unknown retern value from buffer.read()
+2024-11-28 15:47:44,434 file.rtobject ERROR Traceback (most recent call last):
+  File "C:\Users\enshu\AppData\Local\Programs\Python\Python310\lib\site-packages\OpenRTM_aist\DataFlowComponentBase.py", line 123, in on_execute
+    ret = self.onExecute(ec_id)
+  File "C:\Users\enshu\workspace\selector\selector.py", line 235, in onExecute
+    footage = self._t_list[-1].data + ".png"
+AttributeError: 'str' object has no attribute 'data'
+
+2024-11-28 15:47:50,475 file.ManagerServant INFO Master manager not found
+2024-11-28 15:48:00,509 file.ManagerServant INFO Master manager not found
+2024-11-28 15:48:10,590 file.ManagerServant INFO Master manager not found
+2024-11-28 15:48:20,613 file.ManagerServant INFO Master manager not found
+2024-11-28 15:48:30,585 file.ManagerServant INFO Master manager not found
+2024-11-28 15:48:40,698 file.ManagerServant INFO Master manager not found
+2024-11-28 15:48:50,754 file.ManagerServant INFO Master manager not found
+2024-11-28 15:49:00,820 file.ManagerServant INFO Master manager not found
+2024-11-28 15:49:10,851 file.ManagerServant INFO Master manager not found
+2024-11-28 15:49:20,962 file.ManagerServant INFO Master manager not found
+2024-11-28 16:26:19,651 file.manager INFO 2.0.0
+2024-11-28 16:26:19,651 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-11-28 16:26:19,651 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-11-28 16:26:19,651 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-11-28 16:26:19,651 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-11-28 16:26:19,651 file.manager INFO   All right reserved.
+2024-11-28 16:26:19,651 file.manager INFO Manager starting.
+2024-11-28 16:26:19,651 file.manager INFO Starting local logging.
+2024-11-28 16:26:19,657 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2024-11-28 16:26:23,731 file.ManagerServant INFO Master manager not found
+2024-11-28 16:26:23,732 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-11-28 16:26:23,736 file.manager INFO Component type conf file: selector.conf loaded.
+2024-11-28 16:26:23,737 file.ec_base INFO setRate(1000000.000000) done
+2024-11-28 16:26:23,737 file.ec_base INFO setRate(1000.000000) done
+2024-11-28 16:26:23,737 file.rtobject INFO 1 execution context was created.
+2024-11-28 16:26:23,741 file.rtobject INFO Initial active configuration set is default.
+2024-11-28 16:26:37,888 file.ManagerServant INFO Master manager not found
+2024-11-28 16:26:46,238 file.InPortConnector ERROR unknown error
+2024-11-28 16:26:46,239 file.result_t ERROR unknown retern value from buffer.read()
+2024-11-28 16:26:47,912 file.ManagerServant INFO Master manager not found
+2024-11-28 16:26:57,903 file.ManagerServant INFO Master manager not found
+2024-11-28 16:27:08,007 file.ManagerServant INFO Master manager not found
+2024-11-28 16:27:18,085 file.ManagerServant INFO Master manager not found
+2024-11-28 16:27:27,322 file.result_t WARNING Traceback (most recent call last):
+  File "C:\Users\enshu\AppData\Local\Programs\Python\Python310\lib\site-packages\OpenRTM_aist\PortBase.py", line 2305, in checkPorts
+    if port._non_existent():
+  File "C:\Users\enshu\AppData\Local\Programs\Python\Python310\lib\site-packages\omniORB\CORBA.py", line 559, in _non_existent
+    return self._obj.nonExistent()
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2024-11-28 16:27:27,322 file.result_t WARNING Dead connection: 1abf61a1-ad5a-11ef-b904-f0f7b08dcc27
+2024-11-28 16:27:28,170 file.ManagerServant INFO Master manager not found
+2024-11-28 16:27:29,358 file.result_t WARNING Traceback (most recent call last):
+  File "C:\Users\enshu\AppData\Local\Programs\Python\Python310\lib\site-packages\OpenRTM_aist\PortBase.py", line 873, in disconnect
+    return p.notify_disconnect(connector_id)
+  File "C:\Users\enshu\AppData\Local\Programs\Python\Python310\lib\site-packages\OpenRTM_aist\RTM_IDL\RTC_idl.py", line 1207, in notify_disconnect
+    return self._obj.invoke("notify_disconnect", _0_RTC.PortService._d_notify_disconnect, args)
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2024-11-28 16:27:38,251 file.ManagerServant INFO Master manager not found
+2024-11-28 16:27:48,299 file.ManagerServant INFO Master manager not found
+2024-11-28 16:27:58,355 file.ManagerServant INFO Master manager not found
+2024-11-28 16:28:08,437 file.ManagerServant INFO Master manager not found
+2024-11-28 16:28:18,519 file.ManagerServant INFO Master manager not found
+2024-11-28 16:28:24,144 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2024-11-28 16:28:24,145 file.SdoServiceAdmin ERROR type  not exists.
+2024-11-28 16:28:28,638 file.ManagerServant INFO Master manager not found
