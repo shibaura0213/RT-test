@@ -1,0 +1,54 @@
+# acceleration CMake config file
+#
+# This file sets the following variables:
+# acceleration_FOUND - Always TRUE.
+# acceleration_INCLUDE_DIRS - Directories containing the acceleration include files.
+# acceleration_IDL_DIRS - Directories containing the acceleration IDL files.
+# acceleration_LIBRARIES - Libraries needed to use acceleration.
+# acceleration_DEFINITIONS - Compiler flags for acceleration.
+# acceleration_VERSION - The version of acceleration found.
+# acceleration_VERSION_MAJOR - The major version of acceleration found.
+# acceleration_VERSION_MINOR - The minor version of acceleration found.
+# acceleration_VERSION_REVISION - The revision version of acceleration found.
+# acceleration_VERSION_CANDIDATE - The candidate version of acceleration found.
+
+message(STATUS "Found acceleration-@PROJECT_VERSION@")
+set(acceleration_FOUND TRUE)
+
+find_package(<dependency> REQUIRED)
+
+#set(acceleration_INCLUDE_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@"
+#    ${<dependency>_INCLUDE_DIRS}
+#    )
+#
+#set(acceleration_IDL_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@/idl")
+set(acceleration_INCLUDE_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@"
+    ${<dependency>_INCLUDE_DIRS}
+    )
+set(acceleration_IDL_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@/idl")
+
+
+if(WIN32)
+    set(acceleration_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_STATIC_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+else(WIN32)
+    set(acceleration_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_SHARED_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+endif(WIN32)
+
+set(acceleration_DEFINITIONS ${<dependency>_DEFINITIONS})
+
+set(acceleration_VERSION @PROJECT_VERSION@)
+set(acceleration_VERSION_MAJOR @PROJECT_VERSION_MAJOR@)
+set(acceleration_VERSION_MINOR @PROJECT_VERSION_MINOR@)
+set(acceleration_VERSION_REVISION @PROJECT_VERSION_REVISION@)
+set(acceleration_VERSION_CANDIDATE @PROJECT_VERSION_CANDIDATE@)
+
